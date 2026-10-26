@@ -1,0 +1,26 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-1042",
+  "vendor_name": null,
+  "customer_name": "Northstar Labs",
+  "issue_date": "2026-10-20",
+  "due_date": "2026-11-19",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Consulting services (12 hours)",
+      "quantity": "1",
+      "unit_price": "1800.00",
+      "line_total": "1800.00"
+    },
+    {
+      "description": "Cloud usage",
+      "quantity": "1",
+      "unit_price": "125.50",
+      "line_total": "125.50"
+    }
+  ],
+  "subtotal": "1925.50",
+  "tax": "96.28",
+  "total": "2021.78"
+}

@@ -1,0 +1,9 @@
+Invoice: INV-1042
+Issued: 2026-10-20
+Due date: 2026-11-19
+Bill to: Northstar Labs
+
+Consulting services (12 hours)    $1,800.00
+Cloud usage                        $125.50
+Tax                                $96.28
+Total due: $2,021.78 USD

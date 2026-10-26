@@ -1,0 +1,10 @@
+Ada Lovelace
+ada@example.com | +1 555 0100
+
+Summary: Data engineer focused on reliable analytics platforms.
+
+Experience
+Data Engineer, Analytical Engines, 2023 - Present
+- Built Python data pipelines and improved reporting reliability.
+
+Skills: Python, SQL, Data Engineering, Pydantic
