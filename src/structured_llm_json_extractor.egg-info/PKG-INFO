@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: structured-llm-json-extractor
+Version: 0.1.0
+Summary: Validated LLM extraction for invoices and resumes
+Requires-Python: >=3.9
+Requires-Dist: pydantic<3,>=2.7
+Requires-Dist: python-dotenv<2,>=1.0
+Provides-Extra: openai
+Requires-Dist: openai<3,>=1.30; extra == "openai"
+Provides-Extra: dev
+Requires-Dist: pytest<9,>=8; extra == "dev"
