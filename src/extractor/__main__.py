@@ -2,13 +2,14 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import sys
 
 from pydantic import ValidationError
 
 from extractor.providers import ExtractionError, provider_for
 
 
-def main() -> int:
+def extraction_main() -> int:
     parser = argparse.ArgumentParser(description="Extract validated JSON from invoices or resumes.")
     parser.add_argument("input", type=Path, help="UTF-8 text document")
     parser.add_argument("--document-type", choices=("invoice", "resume"), required=True)
@@ -26,6 +27,14 @@ def main() -> int:
     else:
         print(payload)
     return 0
+
+
+def main() -> int:
+    if len(sys.argv) > 1 and sys.argv[1] == "rag":
+        from extractor.rag import rag_main
+
+        return rag_main(sys.argv[2:])
+    return extraction_main()
 
 
 if __name__ == "__main__":

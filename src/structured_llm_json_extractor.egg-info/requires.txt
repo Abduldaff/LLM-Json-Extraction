@@ -6,3 +6,13 @@ pytest<9,>=8
 
 [openai]
 openai<3,>=1.30
+
+[rag]
+langchain-chroma<1,>=0.2
+langchain-community<1,>=0.3
+langchain-openai<1,>=0.3
+langchain-text-splitters<1,>=0.3
+pypdf<7,>=5
+
+[rag:python_version < "3.10"]
+greenlet<3.2,>=3.1.1

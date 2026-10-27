@@ -2,10 +2,12 @@
 .env.*
 !.env.example
 .venv/
+.venv-*/
 venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.rag-index/
 build/
 dist/
 *.egg-info/
